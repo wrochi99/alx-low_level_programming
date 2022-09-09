@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-/** 
+/*
  * main - printing with the use of 'printf' function
  *
  * Return: 0 (successful)
