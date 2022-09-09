@@ -1,4 +1,4 @@
-/* I start by including the library*/
+/* I start by including the library */
 
 #include <stdio.h>
 
@@ -10,8 +10,8 @@
  */
 int main(void)
 {
-	/* printing statement required by ALX using printf*/
+	/* printing statement required by ALX using printf */
 	printf("with proper grammar, but the outcome is a piece of art,\n");
-	/* return the value 0 as we declared it an 'int'*/
+	/* return the value 0 as we declared it an 'int' */
 	return (0);
 }

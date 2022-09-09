@@ -12,6 +12,6 @@
 int main(void)
 {
 	/* statement required by ALX inc. of '\' to factor sp. character*/
-	puts("\"Programming is like building a multilingual language\n");
+	puts("\"Programming is like building a multilingual puzzle\n");
 	return (0);
 }

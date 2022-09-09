@@ -11,11 +11,11 @@
 int main(void)
 {
 	/* list the data types and assign variables */
-	char a
-	int b
-	long int c
-	long long int d
-	float e
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float e;
 	/* print the statements for each variable including required format */
 	printf("Size of a char: (%d) byte(s)\n, sizeof(a)");	
 	printf("Size of an int: (%d) byte(s)\n, sizeof(b)");
