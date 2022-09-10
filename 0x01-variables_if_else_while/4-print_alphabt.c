@@ -15,10 +15,10 @@ int main(void)
 		/* if statement negating 'e' and 'q' */
 		if (alphbt != 'e' && alphbt != 'q')
 		{
-			putchar(alphbt)
+			putchar(alphbt);
 		}
 	}
 	/* putchar for next or following line */
-	putchar('\n')
-	return(0)
+	putchar('\n');
+	return(0);
 }

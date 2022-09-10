@@ -14,13 +14,13 @@ int main(void)
 	/* for loop for lwrCase */
 	for (lwrCase = 'a'; lwrCase <= 'z'; lwrCase++)
 	{
-		putchar(lwrCase)
+		putchar(lwrCase);
 	}
 	/* for loop for upprCase */
 	for (upprCase = 'A'; upprCase <= 'Z'; upprCase++)
 	{
-		putchar(upprCase)
+		putchar(upprCase);
 	}
-	putchar('\n')
-	return(0)
+	putchar('\n');
+	return(0);
 }

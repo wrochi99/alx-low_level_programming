@@ -12,9 +12,9 @@ int main(void)
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
 		/* only allowed to use putchar */
-		putchar(c)
+		putchar(alphabet);
 	}
 	/* only allowed to use putchar twice */
-	putchar('\n')
-	return(0)
+	putchar('\n');
+	return(0);
 }
