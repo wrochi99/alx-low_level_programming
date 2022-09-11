@@ -13,8 +13,7 @@ int main(void)
 	/* for loop */
 	for (printNum = '0'; printNum <= '9'; printNum++)
 	{
-		putchar(printNum);
+		printf(printNum);
 	}
-	putchar("\n");
 	return (0);
 }
