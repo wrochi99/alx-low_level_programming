@@ -1,9 +1,10 @@
 /* include libraries */
 #include <stdio.h>
-/*
- * main function - print numbers
+/**
+ * main - print numbers
+ * numbers: random interger
  *
- * return 0 (successful)
+ * Return: 0
  */
 int main(void)
 {
@@ -12,7 +13,7 @@ int main(void)
 	/* for loop */
 	for (printNum = '0'; printNum <= '9'; printNum++)
 	{
-		printf("printNum\n");
+		printf("printNum");
 	}
 	return (0);
 }

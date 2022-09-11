@@ -2,14 +2,12 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-/*
- * main - printing
- * description - function is to print positive or negative
- * return Always 0 (succesful)
+/**
+ * main- printing status of variable n stored
+ * n: random interger
  *
+ * Return: 0
  */
-
-/* main function - printing */
 int main(void)
 {
 	int n;

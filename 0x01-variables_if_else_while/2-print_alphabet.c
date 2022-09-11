@@ -1,8 +1,10 @@
 /* Include relevant library */
 #include <stdio.h>
-/*
+/**
  * main - print alphabet in lowercase using only putchar
- * return - 0 (successful)
+ * alphabet: random character
+ *
+ * Return: 0
  */
 int main(void)
 {
@@ -16,5 +18,5 @@ int main(void)
 	}
 	/* only allowed to use putchar twice */
 	putchar('\n');
-	return(0);
+	return (0);
 }

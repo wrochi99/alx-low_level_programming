@@ -1,9 +1,10 @@
 /* include libraries */
 #include <stdio.h>
-/*
- * main function - print numbers of base 16 in lowercase
+/**
+ * main - print numbers of base 16 in lowercase
+ * numbers: random interger
  *
- * return 0 (successful)
+ * Return: 0
  */
 int main(void)
 {
@@ -19,5 +20,5 @@ int main(void)
 		putchar(base16);
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }

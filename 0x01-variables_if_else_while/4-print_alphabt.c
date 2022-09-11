@@ -1,9 +1,10 @@
 /* include libraries */
 #include <stdio.h>
-/*
+/**
  * main - print alphabet in lowercase ignoring 'e' and 'q'
+ * alphabet: random character
  *
- * return - 0 (successful)
+ * Return: 0
  */
 int main(void)
 {
@@ -20,5 +21,5 @@ int main(void)
 	}
 	/* putchar for next or following line */
 	putchar('\n');
-	return(0);
+	return (0);
 }

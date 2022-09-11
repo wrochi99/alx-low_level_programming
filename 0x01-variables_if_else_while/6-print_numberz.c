@@ -1,9 +1,10 @@
 /* include libraries */
 #include <stdio.h>
-/*
- * main function - printing
+/**
+ * main - print numbers with putchar
+ * numbers: random interger
  *
- * return 0
+ * Return: 0
  */
 int main(void)
 {
@@ -15,5 +16,5 @@ int main(void)
 		putchar(printNum);
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }

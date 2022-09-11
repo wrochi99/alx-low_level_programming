@@ -2,9 +2,11 @@
 
 #include <stdio.h>
 
-/*
+/**
  * main - print alphabet in lowercase and then uppercase
- * return - 0 (successful)
+ * alphabet: random character
+ *
+ * Return: 0
  */
 int main(void)
 {
@@ -22,5 +24,5 @@ int main(void)
 		putchar(upprCase);
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }

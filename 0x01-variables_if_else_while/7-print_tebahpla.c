@@ -1,9 +1,10 @@
 /* include libraries */
 #include <stdio.h>
-/*
- * main function - print lowercase alphabet in reverse
+/**
+ * main - print lowercase alphabet in reverse
+ * alphabet: random character
  *
- * return 0 (successful)
+ * Return: 0
  */
 int main(void)
 {
@@ -15,5 +16,5 @@ int main(void)
 		putchar(reverseAlphabet);
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }

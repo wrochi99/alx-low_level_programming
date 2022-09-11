@@ -1,14 +1,16 @@
 /* include libraries */
 #include <stdio.h>
-/*
- * main function - printing
+/**
+ * main - print numbers
+ * numbers: random interger
  *
- * return 0 (succcessful)
+ * Return: 0
  */
 int main(void)
 {
 	/* declare var_name and type */
 	int printComb;
+
 	for (printComb = '0'; printComb <= '9'; printComb++)
 	{
 		putchar(printComb);
