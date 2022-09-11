@@ -2,10 +2,11 @@
 
 #include <stdio.h>
 
-/*
- *main - printing with the use of 'printf' function
+/**
+ * main - printing with the use of 'printf' function
+ * printf: function
  *
- *Return: 0 (successful)
+ * Return: 0
  *
  */
 int main(void)
