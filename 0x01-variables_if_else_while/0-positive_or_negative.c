@@ -8,6 +8,8 @@
  * return Always 0 (succesful)
  *
  */
+
+/* main function - printing */
 int main(void)
 {
 	int n;
@@ -22,7 +24,7 @@ int main(void)
 	/*ElseIf statement for 0*/
 	else if (n == 0)
 	{
-		printf("%d is 0 and is 0\n", n);
+		printf("%d is zero\n", n);
 	}
 	/*Else statement for negative number*/
 	else
