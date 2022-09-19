@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * reset_to_98 - takes a pointer to any int and...
- * updates it's value to 98.
- * int - random interger
+ * reset_to_98 - takes pointer to int and updates value to 98
  *
  * Return: 0
  */
@@ -11,7 +9,6 @@ void reset_to_98(int *n)
 {
 	int i;
 
-	i = 5;
 	n = &i;
 
 	*n = 98;
