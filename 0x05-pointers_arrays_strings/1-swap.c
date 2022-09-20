@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * swap_int - swaps the values of two ints @a and @b
- * @a - random int
- * @b - random int
+ * swap_int - swaps the values of two ints '*a' and '*b'
+ * a - random int
+ * b - random int
  *
  * Return: 0
  */
