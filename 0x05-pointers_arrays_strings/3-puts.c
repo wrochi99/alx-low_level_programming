@@ -2,7 +2,7 @@
 /**
  * _puts - prints string to stdout
  *
- * Return: 0
+ *  @str - input string
  */
 void _puts(char *str)
 {
@@ -13,5 +13,4 @@ void _puts(char *str)
 		_putchar(str[i]);
 	}
 	_putchar('\n');
-	return (0);
 }
