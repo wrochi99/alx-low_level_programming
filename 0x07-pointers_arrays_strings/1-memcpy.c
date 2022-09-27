@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * _memcpy - copy n bytes from src to dest
- * @dest - memory area to receive copy
- * @src - memory area to be copied
- * @n - unsigned int
+ * @dest: emory area to receive copy
+ * @src: memory area to be copied
+ * @n: unsigned int
  *
  * Return: pointer to dest
  */
