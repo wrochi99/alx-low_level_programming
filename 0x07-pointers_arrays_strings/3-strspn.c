@@ -2,8 +2,8 @@
 /**
  * _strspn - return number of bytes of s which
  * consists only of bytes from accept
- * @s - source string
- * @accept - searching string
+ * @s: source string
+ * @accept: searching string
  *
  * Return: new string
  */
