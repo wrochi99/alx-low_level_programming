@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _memcpy - copy n bytes from src to dest
- * @dest: emory area to receive copy
+ * @dest: memory area to receive copy
  * @src: memory area to be copied
  * @n: unsigned int
  *
@@ -13,7 +13,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
 	while (i < n)
 	{
-		*(dest + i) = *(src + i);
+		dest[i] = src[i];
 		i++;
 	}
 
