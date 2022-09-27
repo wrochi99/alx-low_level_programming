@@ -1,21 +1,18 @@
 #include "main.h"
 /**
  * _memset - fill memory with constant byte
- *  @s - character to be pointed
- *  @b - constant byte
- *  @n - unsigned int
+ *  @s: character to be pointed
+ *  @b: constant byte
+ *  @n: unsigned int
  *
  * Return: pointer to memory area 's'
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
-
-	while (i < n)
+	while (n > 0)
 	{
-		*(s + i) = b;
-		i++;
+		s[n - 1] = b;
+		n--;
 	}
-
 	return (s);
 }
