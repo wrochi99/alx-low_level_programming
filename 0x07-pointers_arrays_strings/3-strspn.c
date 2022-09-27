@@ -15,12 +15,12 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		for (i = 0; *(accept + i); i++)
 		{
-			if (*(s+j) == *(accept + i))
+			if (s[j] == accept[i])
 			{
 				break;
 			}
 		}
-		if (!(*(accept + i))
+		if (!accept[i])
 		{
 			break;
 		}
