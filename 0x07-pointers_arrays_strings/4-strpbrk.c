@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strpbrk - locate 1st occurrence of string s in accept
- * @s - source string
- * @accept - searching string
+ * @s: source string
+ * @accept: searching string
  *
  * Return: new string
  */
@@ -14,12 +14,12 @@ char *_strpbrk(char *s, char *accept)
 	{
 		for (j = 0; *(accept + j); j++)
 		{
-			if (*(s + i) == *(accept + j))
+			if (s[i] == accept[j])
 			{
 				break;
 			}
 		}
-		if (*(accept + j) =! '\0')
+		if (!accept[j])
 		{
 			return (s + i);
 		}
