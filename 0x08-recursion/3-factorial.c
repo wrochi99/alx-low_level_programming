@@ -8,6 +8,13 @@
  */
 int factorial(int n)
 {
+	/**
+	 * i is next factorial
+	 */	
+	int i;
+
+	i = factorial(n - 1);
+
 	if (n < 1)
 	{
 		return (-1);
