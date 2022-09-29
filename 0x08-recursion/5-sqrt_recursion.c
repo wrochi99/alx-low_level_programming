@@ -23,7 +23,7 @@ int _sqrt_recursion(int n)
 		return (n);
 	}
 
-	if (n > x / 2)
+	if (n > (x / 2))
 	{
 		return (-1);
 	}
