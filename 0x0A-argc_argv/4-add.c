@@ -11,7 +11,7 @@
  * Return: 0 if successful
  * 	   1 if error
  */
-int only_positive_sum(int argc, char *argv[])
+int only_positive_sum(int argc)
 {
 	/**
 	 * index for argv[]
@@ -20,17 +20,22 @@ int only_positive_sum(int argc, char *argv[])
 
 	if (argc > 0)
 	{
-		if (argv[i] < 0 && i != int)
+		for (i = 1; i < argc; i++)
 		{
-			printf("Error\n");
-			return (1);
-		}
-		else if (argv[i] >= 1)
-		{
-			for (i = 1; i < argc; i++)
+			if (i < 0)
 			{
-				result += argv[i];
+				printf("Error\n");
+				return (1);
+			}
+			else if (i >= 1)
+			{
+				result = result + i;
 				printf("%d\n", result);
+			}
+			else
+			{
+				printf("Error\n");
+				return (1);
 			}
 		}
 	}

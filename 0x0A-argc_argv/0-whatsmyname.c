@@ -12,7 +12,7 @@
  */
 int what_is_my_name(int argc, char *argv[])
 {
-	if (argc = 0)
+	if (argc == 0)
 	{
 		printf("%s\n", argv[0]);
 	}
@@ -21,4 +21,4 @@ int what_is_my_name(int argc, char *argv[])
 		printf("\n");
 	}
 	return (0);
-
+}

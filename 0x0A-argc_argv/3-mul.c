@@ -8,17 +8,13 @@
  * @x: source int from argv[1]
  * @y: source int from argv[2]
  * @argc: argument counter
- * @argv: argument vector
  *
  * Result: 0 if successful 
  * 	   1 if error
  */
-int multiply_two_num(int argc, char *argv[])
+int multiply_two_num(int argc)
 {
-	int x, y, result;
-
-	argv[1] = x;
-	argv[2] = y;
+	int i, result = 0;
 
 	if (argc != 3)
 	{
@@ -27,8 +23,11 @@ int multiply_two_num(int argc, char *argv[])
 	}
 	else if (argc == 3)
 	{
-		result = (x * y);
-		printf("%d\n", result);
+		for (i = 1; i <= argc; i++)
+		{
+			result = (i * (i + 1));
+			printf("%d\n", result);
+		}
 	}
 	return (0);
 }

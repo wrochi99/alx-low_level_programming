@@ -17,7 +17,7 @@ int print_all_arg(int argc, char *argv[])
 
 	if (argc >= 0)
 	{
-		for (argc >= 0; i < argc; i++)
+		for (i = 0; i < argc; i++)
 		{
 			printf("%s\n", argv[i]);
 		}

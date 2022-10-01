@@ -13,12 +13,12 @@
 int print_num_arg(int argc, char* argv[])
 {
 	int i, num = 0;
-
+	
 	if (argc > 0)
 	{
-		for (argc > 0; i < argc; i++)
+		for (i = 1; i < argc; i++)
 		{
-			num = num + (i, argv[i]);
+			num += atoi(argv[i]);
 			printf("%d\n", num);
 		}
 	}
