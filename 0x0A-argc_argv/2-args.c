@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * print_all_arg - prints all arguments it receives
+ * main - prints all arguments it receives
  * including argv[0] and each argument is printed
  * on it's own line
  * @argc: argument counter
@@ -11,16 +11,13 @@
  *
  * Return: 0
  */
-int print_all_arg(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i = 0;
 
-	if (argc >= 0)
+	for (i = 0; i < argc; i++)
 	{
-		for (i = 0; i < argc; i++)
-		{
-			printf("%s\n", argv[i]);
-		}
+		printf("%s\n", argv[i]);
 	}
 	return (0);
 }
