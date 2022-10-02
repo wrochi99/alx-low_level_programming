@@ -12,15 +12,9 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, num = 0;
+	(void) argv;
 
-	if (argc > 0)
-	{
-		for (i = 1; i < argc; i++)
-		{
-			num += atoi(argv[i]);
-			printf("%d\n", num);
-		}
-	}
+	printf("%d\n", argc - 1);
+
 	return (0);
 }
