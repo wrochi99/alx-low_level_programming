@@ -12,13 +12,9 @@
  */
 int what_is_my_name(int argc, char *argv[])
 {
-	if (argc == 0)
-	{
-		printf("%s\n", argv[0]);
-	}
-	else if (argc != 0)
-	{
-		printf("\n");
-	}
+	(void) argc;
+
+	printf("%s\n", argv[0]);
+	
 	return (0);
 }
