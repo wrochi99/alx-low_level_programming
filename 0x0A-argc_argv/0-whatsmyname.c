@@ -18,3 +18,8 @@ int what_is_my_name(int argc, char *argv[])
 	
 	return (0);
 }
+
+int main(void)
+{
+	return (0);
+}
