@@ -3,18 +3,16 @@
 #include <stdlib.h>
 
 /**
- * multiply_two_num - print result of (x * y) 
- * followed by a new line
- * @x: source int from argv[1]
- * @y: source int from argv[2]
+ * main - print result of (x * y) followed by a new line
  * @argc: argument counter
+ * @argv: arg vector
  *
- * Result: 0 if successful 
- * 	   1 if error
+ * Return: 0
  */
-int multiply_two_num(int argc)
+int main(int argc, char *argv[])
 {
 	int i, result = 0;
+	(void) argv;
 
 	if (argc != 3)
 	{
