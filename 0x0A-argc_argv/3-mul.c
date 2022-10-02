@@ -11,7 +11,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, result = 0;
+	int x, y, result;
 	(void) argv;
 
 	if (argc != 3)
@@ -21,11 +21,10 @@ int main(int argc, char *argv[])
 	}
 	else if (argc == 3)
 	{
-		for (i = 1; i <= argc; i++)
-		{
-			result = (i * (i + 1));
-			printf("%d\n", result);
-		}
+		x = atoi(argv[1]);
+		y = atoi(argv[2]);
+		result = (x * y);
+		printf("%d\n", result);
 	}
 	return (0);
 }
